@@ -1,0 +1,10 @@
+variable "ami" {}
+variable "sonarqube-sg" {}
+variable "subnet_id" {}
+variable "elb-subnets" {}
+variable "cert-arn" {}
+variable "keypair" {}
+variable "nr-key" {}
+variable "nr-acc-id" {}
+variable "nr-region" {}
+variable "name" {}

@@ -1,0 +1,10 @@
+variable "ami-prd" {}
+variable "key-name" {}
+variable "asg-sg" {}
+variable "nexus-ip-prd" {}
+variable "nr-key-prd" {}
+variable "nr-acc-id-prd" {}
+variable "nr-region-prd" {}
+variable "asg-prd-name" {}
+variable "vpc-zone-id-prd" {}
+variable "tg-arn" {}

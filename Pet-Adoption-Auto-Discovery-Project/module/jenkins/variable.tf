@@ -1,0 +1,11 @@
+variable "ami-redhat" {}
+variable "subnet-id" {}
+variable "jenkins-sg" {}
+variable "key-name" {}
+variable "jenkins-name" {}
+variable "nexus-ip" {}
+variable "cert-arn" {}
+variable "subnet-elb" {}
+variable "nr-key" {}
+variable "nr-acc-id" {}
+variable "nr-region" {}

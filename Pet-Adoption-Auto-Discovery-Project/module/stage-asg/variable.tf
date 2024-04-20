@@ -1,0 +1,10 @@
+variable "ami-stg" {}
+variable "key-name" {}
+variable "asg-sg" {}
+variable "nexus-ip-stg" {}
+variable "nr-key-stg" {}
+variable "nr-acc-id-stg" {}
+variable "nr-region-stg" {}
+variable "asg-stg-name" {}
+variable "vpc-zone-id-stg" {}
+variable "tg-arn" {}
