@@ -8,11 +8,11 @@ variable "ami-ubuntu" {
   default = "ami-01b32e912c60acdfa"
 }
 variable "vault-domain-name" {
-  default = "vault.tundeafod.click"
+  default = "chisomproject.click"
 }
 variable "domain-name" {
-  default = "tundeafod.click"
+  default = "chisomproject.click"
 }
 variable "domain-name2" {
-  default = "*.tundeafod.click"
+  default = "*.chisomproject.click"
 }

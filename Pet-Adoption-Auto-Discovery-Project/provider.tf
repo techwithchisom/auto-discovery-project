@@ -5,5 +5,5 @@ provider "aws" {
 
 provider "vault" {
   token   = "s.iL9LieBBt8YuPRX7atgz0ylR"
-  address = "https://vault.tundeafod.click"
+  address = "https://vault.chisomproject.click"
 }

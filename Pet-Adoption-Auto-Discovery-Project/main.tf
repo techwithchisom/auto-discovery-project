@@ -3,7 +3,7 @@ locals {
 }
 
 data "aws_acm_certificate" "cert" {
-  domain      = "tundeafod.click"
+  domain      = "chisomproject.click"
   types       = ["AMAZON_ISSUED"]
   most_recent = true
 }
@@ -146,20 +146,20 @@ module "stage-lb" {
 
 module "route53" {
   source                = "./module/route53"
-  domain_name           = "tundeafod.click"
-  jenkins_domain_name   = "jenkins.tundeafod.click"
+  domain_name           = "chisomproject.click"
+  jenkins_domain_name   = "jenkins.chisomproject.click"
   jenkins_lb_dns_name   = module.jenkins.jenkins_dns_name
   jenkins_lb_zone_id    = module.jenkins.jenkins_zone_id
-  nexus_domain_name     = "nexus.tundeafod.click"
+  nexus_domain_name     = "nexus.chisomproject.click"
   nexus_lb_dns_name     = module.nexus.nexus_dns_name
   nexus_lb_zone_id      = module.nexus.nexus_zone_id
-  sonarqube_domain_name = "sonarqube.tundeafod.click"
+  sonarqube_domain_name = "sonarqube.chisomproject.click"
   sonarqube_lb_dns_name = module.sonarqube.sonarqube_dns_name
   sonarqube_lb_zone_id  = module.sonarqube.sonarqube_zone_id
-  prod_domain_name      = "prod.tundeafod.click"
+  prod_domain_name      = "prod.chisomproject.click"
   prod_lb_dns_name      = module.prod-lb.prod-lb-dns
   prod_lb_zone_id       = module.prod-lb.prod-lb-zoneid
-  stage_domain_name     = "stage.tundeafod.click"
+  stage_domain_name     = "stage.chisomproject.click"
   stage_lb_dns_name     = module.stage-lb.stage-lb-dns
   stage_lb_zone_id      = module.stage-lb.stage-lb-zoneid
 }
