@@ -1,6 +1,6 @@
 provider "aws" {
   region  = "eu-west-3"
-  profile = "team1"
+  profile = "default"
 }
 
 provider "vault" {
